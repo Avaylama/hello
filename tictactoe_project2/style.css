@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #A7B0CA;
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+}
+
+h1 #tic{
+    color: #dffbe3;
+}
+h1 #tac{
+    color: #90fe9f;
+}
+h1 #toe{
+    color: #04fe25;
+}
+
+.msg-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5vh;
+}
+.msg-container .restartbtn{
+    font-size: 16px;
+    height: 2.5rem;
+    width: 8rem;
+    color: rgb(108, 252, 204);
+    background-color: rgb(12, 12, 12);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.msg-container .msg{
+   color: rgb(48, 51, 78);
+   font-size: 50px;
+}
+
+.hide{
+    display: none;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    font-size: 8vmin;
+    border: none;
+    background-color: #725E54;
+    color: rgb(64, 223, 232);
+}
+.resetbtn{
+    font-size: 16px;
+    height: 2.5rem;
+    width: 8rem;
+    color: rgb(108, 252, 204);
+    background-color: rgb(12, 12, 12);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+

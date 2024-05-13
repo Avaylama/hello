@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #222;
+}
+.card{
+    /* height: 500px; */
+    width: 100%;
+    max-width: 400px;
+    background-color: aqua;
+/* auto is left in middle */
+    margin: 200px 10px 0px;
+    color: #fff;
+    border-radius: 20px;
+}
+.search{
+    width: 20%;
+    position: absolute;
+    margin : 30px 32px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input{
+    width: 80%;
+    height: 50px;
+    background-color: #fff;
+    color: rgb(55, 54, 54);
+    font-size: large;
+    border: 0px;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+.search button{
+    height: 50px;
+    width: 47px;
+    background-color: #fff;
+    border: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+ .search button img{
+    height: 20px;
+    width: 15px;
+} 
+.weather .rain img{
+    position: relative;
+    margin: 100px 85px 0px;
+}
+.weather .rain h1{
+    position: relative;
+    margin: -20px 150px 0px;
+    font-size: 54px;
+    font-weight: 700;
+}
+.weather .rain p{
+    position: relative;
+    margin: 0px 130px 0px;
+    font-size: 26px;
+    font-weight: 550;
+}
+.details{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 25px 0px 30px;
+}
+.details .humidity img{
+    height: 26px;
+    width: 35px;
+}
+.details .humidity{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    gap: 10px;
+}
+.humidity .para .moisture{
+    font-size: 23px;
+}
+.humidity .para p{
+    font-size: 14px;
+}
+.details .wind{
+    display: flex;
+    position: relative;
+    gap: 10px;
+}
+.wind img{
+    height: 30px;
+    width: 38px;
+}
+.wind .para1 .air{
+    font-size: 23px;
+} 
+.wind .para1 p{
+    font-size: 14px;
+} 
